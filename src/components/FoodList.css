@@ -1,0 +1,11 @@
+* {
+  font-style: italic;
+  background-color: darkgrey;
+}
+
+.btn {
+  background-color: aliceblue;
+  font-size: larger;
+  color: gray;
+  width: 200px;
+}
