@@ -1,0 +1,22 @@
+* {
+  background-color: cadetblue;
+}
+
+.btn {
+  font-size: x-large;
+  color: whitesmoke;
+}
+
+.ReviewListItem {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  color: azure;
+}
+
+.ReviewListItem-img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 20px;
+}
