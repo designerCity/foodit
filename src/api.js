@@ -6,3 +6,4 @@ export async function getList({ order = '', cursor = '', limit }) {
   const body = await response.json();
   return body;
 }
+// request 를 받아서 오는 response 를 json data 로 전환하여, body 에 넘겨준다. 
