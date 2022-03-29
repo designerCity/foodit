@@ -5,6 +5,7 @@ import { getList } from '../api'
 
 const LIMIT = 5;
 
+
 function App() {
 // 삭제 버튼을 통해서 브라우저를 재구성하려면 state에 대한 clone 을 만들어둬야 한다. 
   const [items, setIems] = useState([])
