@@ -1,5 +1,6 @@
 const BASE_URL = 'https://learn.codeit.kr/api'
 
+
 // response 받아와서 쓰는 함수들을 정리할 것이다. 
 export async function getList({ order = '', cursor = '', limit = 5, search = '' }) {
     const query = `order=${order}&cursor=${cursor}&limit=${limit}&search=${search}`;
@@ -17,10 +18,10 @@ export async function createFood(formData) {
     const response = await fetch(`${BASE_URL}/foods`, {
         method: 'POST',
         body: formData,
-    });
+    }); // 에러 처리 
     if (!response.ok) {
         throw new Error('데이터를 생성하는데 실패했습니다!');
-    }
+    } // json data 변환
     const body = await response.json();
     return body;
 }
