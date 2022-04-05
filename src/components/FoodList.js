@@ -11,7 +11,6 @@ function formatDate(value) {
     return (
       <div className="FoodListItem">
         <img src={imgUrl} alt={title} />
-        
           <div>{title}</div>
           <div>{calorie} kcal </div>
           <div>{content}</div>
