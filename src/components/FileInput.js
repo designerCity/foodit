@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 function FileInput({ name, value, onChange }) {
     const [preview, setPreview] = useState(); // 미리보기 component 
 
+    
     const inputRef = useRef();
     const handleInputChange = (e) => {
         const nextValue = e.target.files[0];
